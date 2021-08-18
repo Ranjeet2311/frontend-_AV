@@ -46,6 +46,85 @@
   .hero {
     width: 60%;
   }
+
+  /* ---------5th Mod ---- */
+  .r-container {
+    flex-direction: column;
+  }
+  .card-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .container-wrapper {
+    padding: 16rem 0rem;
+  }
+  .caption5 {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    padding: 3rem;
+    top: 30%;
+    left: 50%;
+    transform: translate(-39%, -6%);
+  }
+  .caption-heading {
+    width: 100%;
+  }
+  .icons-wrapper {
+    flex-direction: column;
+  }
+  .icon-container {
+    padding: 1rem;
+    width: 40%;
+    margin: 1rem 0.2rem;
+  }
+.icon {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(52, 97, 188);
+  transition: all 0.1s ease-in-out;
+}
+.icon:hover {
+  transform: scale(1.5);
+  background-color: rgb(40, 78, 155);
+  cursor: pointer;
+}
+
+/* ----- */
+.icon {
+  padding: 2.5rem;
+
+}
+
+.icon-img {
+  width: 10rem;
+  height: 10rem;
+  filter: invert(10);
+  padding: 2rem 1rem;
+}
+
+/* ------ */
+
+  .container-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  /* -----------Mod-6 ---- */
+  .caption6 {
+    width: 100%;
+  }
+  .video-box {
+    width: 80%;
+  }
+  .four-square {
+    width: 100%;
 }
 
 @media screen and (max-width: 650px) {
