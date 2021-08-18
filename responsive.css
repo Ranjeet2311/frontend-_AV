@@ -1,0 +1,58 @@
+@media screen and (max-width: 1080px) {
+  .burger {
+    display: block;
+    position: absolute;
+  }
+  .nav {
+    flex-direction: column;
+  }
+
+  .r-hide {
+    display: none;
+  }
+
+  /* .r-height {
+    transform: translate(-15%, 20%);
+  } */
+
+  .burger-item {
+    display: block;
+  }
+
+  .ul {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-item {
+    font-size: 1rem;
+    padding: 0.4rem 0rem;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .section {
+    top: 300px;
+  }
+  .r-container {
+    flex-direction: column;
+  }
+  .card-box {
+    width: 80%;
+    border-bottom: 1px dashed rgb(202, 196, 196);
+  }
+  .card-box-border {
+    border-left: none;
+    padding-left: 0rem;
+  }
+  .hero {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .caption {
+    width: 100%;
+    top: 30%;
+    left: 71%;
+    transform: translate(-71%, 38%);
+  }
+}

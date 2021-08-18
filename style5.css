@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;400&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.g-font {
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
+  color: black;
+}
+
+.container-wrapper {
+  background-color: white;
+  margin-top: 2rem 0rem;
+  padding-top: 11rem;
+  padding-bottom: 2rem;
+}
+
+.caption5 {
+  width: 70%;
+  position: relative;
+  background-color: white;
+  padding: 3rem;
+  top: 30%;
+  left: 50%;
+  transform: translate(-39%, -6%);
+}
+
+.caption-heading h1 {
+  font-size: 3rem;
+}
+.caption-heading hr {
+  color: hsl(239, 81%, 60%);
+}
+.caption-heading p {
+  color: hsl(239, 81%, 60%);
+}
+
+.icons-wrapper {
+  background-color: rgb(52, 97, 188);
+}
+.icon-container {
+  padding: 1rem;
+  width: 16%;
+  margin: 0rem 0.2rem;
+}
+
+.icon {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(52, 97, 188);
+  transition: all 0.1s ease-in-out;
+}
+.icon:hover {
+  transform: scale(1.5);
+  background-color: rgb(40, 78, 155);
+  cursor: pointer;
+}
+.icon-img {
+  width: 8rem;
+  height: 8rem;
+  filter: invert(10);
+  padding: 2rem 1rem;
+}
+.icon h1 {
+  font-size: 0.8rem;
+  color: white;
+}
+.icon p {
+  font-size: 0.7rem;
+  color: white;
+  margin-bottom: 0.1rem;
+}
+
+.hr {
+  padding: 0;
+  margin: 0;
+}
+
+.hide {
+  opacity: 0;
+}
