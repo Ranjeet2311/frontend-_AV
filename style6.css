@@ -5,29 +5,38 @@
   font-weight: 200;
   color: black;
 }
+.C-hr {
+  margin: 0rem;
+  opacity: 1;
+  width: 8%;
+}
 
 .mudule-6 {
   background-color: white;
-  padding-top: 4rem;
+  padding: 4rem 0rem 0rem 0rem;
 }
 
 .caption6 {
-  width: 45%;
+  width: 50%;
   position: relative;
   background-color: white;
   padding: 3rem;
   top: 30%;
   left: 50%;
-  transform: translate(-53%, -6%);
+  transform: translate(-46%, -6%);
 }
 .caption-heading h1 {
   font-size: 3rem;
 }
 .caption-heading hr {
+  margin: 0rem 0rem;
   width: 10%;
   color: hsl(239, 81%, 60%);
 }
-.ccaption-heading p {
+.caption-heading p {
+  font-size: 0.6rem;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
   color: hsl(239, 81%, 60%);
 }
 
@@ -36,11 +45,22 @@
   margin: 0rem auto;
 }
 
+.video-box-caption {
+  width: 70%;
+  position: relative;
+  background-color: hsl(239, 81%, 60%);
+  color: white;
+  padding: 2rem;
+  top: 30%;
+  left: 22%;
+  transform: translate(-39%, 25%);
+}
+
 .video-box {
   width: 60%;
-  background-color: silver;
+  background-color: hsl(238, 55%, 72%);
   height: 24rem;
-  padding: 1rem;
+  padding: 0rem 1rem;
   border: 1px solid black;
 }
 .video-box hr {
@@ -55,7 +75,7 @@
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   grid-auto-flow: dense;
-  gap: 1rem;
+  gap: 0.4rem;
   justify-items: center;
   align-items: center;
 }
@@ -64,4 +84,36 @@
   font-size: 3rem;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
+}
+
+.counter-h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+
+.four-square h1 {
+  font-size: 3rem;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.four-square p {
+  font-size: 0.6rem;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+}
+.four-square hr {
+  margin: 0;
+  padding: 0;
+  width: 20%;
+  background-color: hsl(239, 81%, 60%);
+}
+.four-square .p {
+  font-size: 0.6rem;
+  font-weight: 600;
+  font-family: "Raleway", sans-serif;
+  color: hsl(239, 81%, 60%);
+}
+.square {
+  width: 80%;
 }

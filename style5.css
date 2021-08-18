@@ -12,11 +12,16 @@
   color: black;
 }
 
+.C-hr {
+  margin: 0rem;
+  opacity: 1;
+  width: 8%;
+}
+
 .container-wrapper {
   background-color: white;
-  margin-top: 2rem 0rem;
-  padding-top: 11rem;
-  padding-bottom: 2rem;
+  padding: 2rem 0rem;
+  /* margin-top: 2rem 0rem; */
 }
 
 .caption5 {

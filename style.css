@@ -45,16 +45,22 @@ header::before {
   width: 15%;
 }
 .logo {
-  width: 100%;
+  width: 90%;
+  filter: invert(1);
+}
+
+.ul {
+  margin: 0;
 }
 
 .menu-item {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
+  margin: 0rem 1.2rem;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
 }
 .menu-btn {
-  font-size: 0.7rem;
+  font-size: 0.6rem;
   text-transform: uppercase;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -63,6 +69,7 @@ header::before {
   transition: all 0.2s ease-in-out;
   border-bottom: 1px solid white;
 }
+
 .btn-1 {
   background-color: transparent;
   border-radius: 3rem;
@@ -83,16 +90,20 @@ header::before {
   border: 1px solid white;
   padding: 0.3rem 0.8rem;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.7rem;
   border: 1px solid hsl(239, 92%, 75%);
   font-family: "Raleway", sans-serif;
   font-weight: 200;
   transition: all 0.3s ease-in-out;
 }
+.btn-2 img {
+  padding: 0rem 0.5rem 0rem 0rem;
+  filter: invert(1);
+}
 
 .btn-2:hover {
   background: linear-gradient(0deg, hsl(239, 81%, 60%), hsl(239, 81%, 60%));
-  color: white;
+  /* color: white; */
   text-shadow: 2px 2px 2px black;
   border: 1px solid rgb(255, 255, 255);
 }
@@ -142,8 +153,10 @@ header::before {
 }
 
 .hero h1 {
-  font-size: 3.5rem;
+  font-size: 3rem;
   color: white;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
 }
 
 .p {
@@ -152,6 +165,8 @@ header::before {
   margin: 0rem;
   color: white;
   font-size: 0.8rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 200;
 }
 
 .hr {
@@ -164,7 +179,7 @@ header::before {
 
 .section {
   position: relative;
-  top: 180px;
+  top: 110px;
   width: 100%;
   overflow: hidden;
 }
@@ -173,7 +188,10 @@ header::before {
   width: 70%;
 }
 .caption-heading h1 {
+  width: 100%;
   font-size: 3rem;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
 }
 .caption-heading hr {
   color: hsl(239, 81%, 60%);
@@ -186,18 +204,22 @@ header::before {
   width: 76%;
   position: relative;
   background-color: white;
-  padding: 3rem;
+  padding: 2rem;
   top: 30%;
   left: 70%;
-  transform: translate(-54%, 46%);
+  transform: translate(-54%, 55%);
 }
+/* .caption h1 {
+  width: 100%;
+  font-size: 3rem;
+} */
 
 .icons {
   background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 3rem;
+  margin-top: 3.5rem;
   padding: 3rem 0rem;
 }
 
@@ -214,7 +236,7 @@ header::before {
   font-size: 1.2rem;
   font-family: menco, sans-serif;
   /* font-style: normal; */
-  /* font-weight: 100; */
+  font-weight: 200;
 }
 .card-box p {
   font-size: 0.8rem;
