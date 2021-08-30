@@ -1,6 +1,13 @@
 const counters = document.querySelectorAll(".counter");
 const number = document.querySelector(".number");
 
+$(document).ready(function () {
+  $(".counter").counterUp({
+    delay: 10,
+    time: 2000,
+  });
+});
+
 // --------------------------------
 
 // const speed = 10;
