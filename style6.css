@@ -48,17 +48,18 @@
 .video-box-caption {
   width: 70%;
   position: relative;
-  background-color: hsl(239, 81%, 60%);
+  /* background-color: hsl(239, 81%, 60%); */
+  background-color: black;
   color: white;
   padding: 2rem;
   top: 30%;
   left: 22%;
-  transform: translate(-39%, 25%);
+  transform: translate(-9%, 0%);
 }
 
 .video-box {
   width: 60%;
-  background-color: hsl(238, 55%, 72%);
+  /* background-color: hsl(237, 25%, 35%); */
   height: 24rem;
   padding: 0rem 1rem;
   border: 1px solid black;

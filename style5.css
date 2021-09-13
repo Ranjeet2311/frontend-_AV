@@ -45,7 +45,8 @@
 }
 
 .icons-wrapper {
-  background-color: rgb(52, 97, 188);
+  /* background-color: rgb(52, 97, 188); */
+  background-color: black;
 }
 .icon-container {
   padding: 1rem;
@@ -59,12 +60,15 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-color: rgb(52, 97, 188);
+  /* background-color: rgb(52, 97, 188); */
   transition: all 0.1s ease-in-out;
 }
 .icon:hover {
   transform: scale(1.5);
-  background-color: rgb(40, 78, 155);
+  /* background-color: rgb(40, 78, 155); */
+  background-color: white;
+  border: 1px solid black;
+
   cursor: pointer;
 }
 .icon-img {
@@ -73,13 +77,16 @@
   filter: invert(10);
   padding: 2rem 1rem;
 }
+.icon-img:hover {
+  filter: invert(0);
+}
 .icon h1 {
   font-size: 0.8rem;
-  color: white;
+  /* color: white; */
 }
 .icon p {
   font-size: 0.7rem;
-  color: white;
+  /* color: white; */
   margin-bottom: 0.1rem;
 }
 
